@@ -1,0 +1,116 @@
+body {
+    background-color: #000;
+    color: #DDD;
+}
+
+#main {
+    background-color: #111;
+    border-radius: 1%;
+    padding: 3%;
+}
+
+#title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#subtitle {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: -0% 1% 5% 1%;
+    font-weight: 350;
+    color: rgb(146, 155, 177);
+}
+
+#img-div {
+    background-color: #222;
+    padding: 1%;
+}
+
+#img-div:hover {
+    animation-name: glow;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+@keyframes glow {
+    0% {
+        box-shadow: rgb(97, 107, 131) 0px 0px 0px 0px;
+    }
+    50% {
+        box-shadow: rgb(97, 107, 131) 0px 0px 10px 0px;
+    }
+    100% {
+        box-shadow: rgb(97, 107, 131) 0px 0px 0px 0px;
+    }
+}
+
+#img-div #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#img-div #img-caption {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1%;
+    color: #CCC;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+}
+
+#tribute-info {
+    margin: 5% auto;
+}
+
+#tribute-info ul {
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 0;
+    list-style: circle;
+}
+
+#tribute-info ul li {
+    margin: 10% 5%;
+    text-align: left;
+}
+
+#tribute-info ul li span {
+    color: #BBB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#tribute-info h3 {
+    margin: 7% 0;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#tribute-info blockquote {
+    margin: 15% 0;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#tribute-info blockquote p i {
+    color:rgb(146, 173, 231);
+    font-size: 30px;
+}
+
+#tribute-info blockquote span {
+    color: #888;
+    display: block;
+    font-size: 14px;
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#tribute-info h3 #tribute-link {
+    color: rgb(146, 173, 231);
+}
+
+#tribute-info h3 #tribute-link:visited {
+    color: rgb(66, 76, 99);
+}
